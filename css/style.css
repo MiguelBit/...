@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background: #1A1A1D;
+}
+
+
+.center{
+    max-width: 1280px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+section.texto h2{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.texto p{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+}
+
+.wait{
+    display: none;
+}
+
+section.nostalgia{
+    display: none;
+}
+
+section.nostalgia h2{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.nostalgia .videos{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.nostalgia .videos iframe{
+    width: 100%;
+    max-width: 900px;
+    border: 2px solid white;
+    margin-bottom: 50px;
+
+}
